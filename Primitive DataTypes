@@ -1,0 +1,46 @@
+/*Primitive           
+sting
+boolean
+number
+null
+undefined*/
+
+/*Non primitive
+  Objects----->
+      array
+      functions
+      objects*/
+
+      //Number
+      let num1 = 112
+      let anothernum1 =222
+      console.log(num1)
+      console.log(anothernum1)
+
+      let score = 'a'
+      console.log(typeof score)
+
+      //Boolean 
+      let isactive = true
+
+      //Null nd undefined 
+      let user 
+      console.log(user)//Undefined 
+
+      let user1= null
+      console.log(user1)
+
+      //String 
+
+      let mystring = "niyar"
+      let mystring1=' kalita'
+      let str = 'optimusprime '
+      let name = `Niyar${mystring1} ${str}`
+      console.log(name)
+      const value = `The main computational value is going to be ${2+3}`
+      console.log(value)
+
+      let sm1 = Symbol('niyar')
+      let sm2 = Symbol('niyar')
+      console.log(sm1==sm2)
+
