@@ -1,0 +1,24 @@
+let obj ={}
+console.log(obj)
+
+ const username ={
+    firstname :'niyar',
+    islogin : true,
+};
+console.log(username)
+username.firstname = 'optimus'
+console.log(username.firstname)
+
+username.islogin = 'false'
+console.log(username.islogin)
+
+//Array
+
+let names =['optimus','bumblebee',' ','archee']
+console.log(names)
+
+//Type implicit conversion
+
+console.log(1+'1')
+let isvalue ='true'
+console.log(Number(isvalue))
