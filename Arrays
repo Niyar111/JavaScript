@@ -1,0 +1,56 @@
+//10 chllanges 
+
+const teaflavors = ['black tea', 'green tea', 'oolang tea']
+const firsttea = teaflavors[0]
+console.log(firsttea)
+
+const cities = ['london', 'tokyo', 'paris', 'newyork']
+const favoratecity = cities[2]
+console.log(favoratecity)
+
+const teaTypes = ['herbal tea', 'white tea', 'masala tea']
+teaTypes[1] = 'jesmine tea '
+console.log(teaTypes)
+
+const citiesVisited = ['bomby', 'sydney']
+//citiesVisited [2]='berlin'
+citiesVisited.push('berlin', 'sweden')
+console.log(citiesVisited)
+
+const teaOrders = ['chai', 'iced tea', 'matcha', 'earl tea']
+teaOrders.pop(3)
+console.log(teaOrders)
+
+const popularTeas = ['green tea', 'oolang tea', 'chai']
+const softcopyTeas = [...popularTeas]
+console.log(softcopyTeas)
+console.log(popularTeas)
+softcopyTeas.push('masala tea')//It doesnot effect the real one
+console.log(softcopyTeas)
+
+softcopyTeas[0] = 'coffe'
+console.log(softcopyTeas)
+
+softcopyTeas.pop(1)
+console.log(softcopyTeas)
+
+const topCities=['berlin','singapoore','neuyork']
+const hardcopyCities =[...topCities]
+console.log(topCities)
+console.log(hardcopyCities)
+topCities.push('sweden')//It does not effect the Hard copy
+console.log(topCities)
+console.log(hardcopyCities)
+
+const europeancities = ['paris','rome']
+const asiancities = ['inida','japan']
+const worldcities = [...asiancities,...europeancities]
+console.log(worldcities)
+
+const teaMenu =['masla tea','oolang tea','green tea','earl tea']
+let menulength = teaMenu.length
+console.log(menulength)
+
+const cityBucketlist = ['london','sweden','europe']
+const islondoninlist = cityBucketlist.includes('london')
+console.log(islondoninlist)
