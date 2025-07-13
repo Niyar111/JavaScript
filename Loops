@@ -1,0 +1,100 @@
+let sum = 0
+let i = 1
+while (i <= 100) {
+    sum = sum + i
+    i++
+    }
+console.log(sum) // Output: 5050
+// This code calculates the sum of all integers from 1 to 100 using a while loop
+
+// let total = 0
+// for (let j = 1; j <= 100; j++) {
+//     total += j
+// }
+// console.log(total) // Output: 5050
+// // This code calculates the sum of all integers from 1 to 100 using a for loop
+
+let product = 1
+for (let k = 1; k <= 10; k++) {
+    product *= k
+}
+console.log(product) // Output: 3628800
+// This code calculates the factorial of 10 using a for loop
+
+let countdown = []
+let n=5
+while (n >= 0) {
+    countdown.push(n)
+    n--
+}
+console.log(countdown) // Output: [5, 4, 3, 2, 1, 0]
+
+let evenNumbers = []
+for (let m = 0; m <= 20; m += 2) {
+    evenNumbers.push(m)
+}
+console.log(evenNumbers) // Output: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+let oddNumbers = []
+for(let n=1; n <= 20; n += 2) {
+    oddNumbers.push(n)
+}
+console.log(oddNumbers) // Output: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+do {
+    console.log("This will always run at least once")
+} while (false)
+// This code demonstrates a do-while loop that runs at least once regardless of the condition
+
+let numbers = [1, 2, 3, 4, 5]
+for (let num of numbers) {
+    console.log(num)
+}// Output: 1 2 3 4 5
+// This code iterates over an array using a for...of loop
+
+let total = 0
+let a =1
+do{
+    total = total + a
+    a++
+    }while(a <=3)
+console.log(total) // Output: 6
+// This code calculates the sum of the first three integers using a do-while loop
+
+
+let arry =[2,4,6]
+let multipliednumbers = []
+for (let b = 0; b < arry.length; b++) {
+    multipliednumbers.push(arry[b] * 2)
+}
+console.log(multipliednumbers) // Output: [4, 8, 12]
+// This code multiplies each element in an array by 2 using a for loop
+
+let fruits = ["apple", "banana", "cherry"]
+for (let fruit of fruits) {
+    console.log(fruit)
+} // Output: apple banana cherry
+// This code iterates over an array of fruits using a for...of loop
+
+let num = [1, 2, 3, 4, 5]
+for (let i = 0; i < num.length; i++) {
+    if (num[i] % 2 === 0) {
+        console.log(num[i]) // Output: 2 4
+    }
+}
+// This code prints even numbers from an array using a for loop with an if condition
+
+let teas = ["green", "black", "herbal"]
+let selectedTeas = []
+for (let i=0;i<teas.lenght;i++){
+    if (teas[i] ==='herbal') {
+        break
+        
+    }
+    selectedTeas.push(teas[i])
+    }
+
+
+console.log(selectedTeas) // Output: ["green", "black"]
+// This code iterates over an array of teas and stops when it encounters 'herbal'
+
