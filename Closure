@@ -1,0 +1,19 @@
+function outer (){
+    let count = 4
+    return function outer(){
+        count ++
+        return count
+    }
+}
+let increment  = outer()
+console.log(increment()); // 5
+
+function addition (){
+    let a = 2
+    return function addition(){
+        a++
+        return a
+    }
+}
+let add = addition()
+console.log(add()); // 3
