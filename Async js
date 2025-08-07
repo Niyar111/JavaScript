@@ -1,0 +1,17 @@
+const greet = (name) => {
+    console.log(`Hello, ${name}!`);
+}
+setTimeout(() => greet('Niyar'), 9000);
+
+let sum  = (a,b) => {
+    return a + b;
+}
+console.log(sum(5, 10));
+
+const multiply = (a, b) => {
+    return a * b;
+}
+const bonjur = (name) => {
+    console.log(`Bonjour, ${name}!`);
+}
+setInterval(() => bonjur('Niyar'), 5000);
